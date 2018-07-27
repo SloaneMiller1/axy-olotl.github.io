@@ -6,19 +6,30 @@
 
 body{
   text-align: center;
+  background-image: url("starlight.jpg");
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 21px;
 }
 h1 {
    color:#800000;
 }
-.bluetext {
-  color: blue;
+.author {
+  width: 1000px;
+  padding: 10px;
+  border: 5px solid #000066;
+  margin: auto;
+  display: block;
+  background-color:  #ccccff;
+
 }
 
 .textmelodie {
     width: 720px;
     padding: 10px;
     border: 5px solid #88cc00;
-    margin: 0;
+    margin: auto;
+    background-color: #70db70;
+    display: block;
 }
 
 
@@ -26,12 +37,16 @@ h1 {
     width: 720px;
     padding: 10px;
     border: 5px solid #7733ff;
-    margin: 0;
+    margin: auto;
+    background-color: #cc99ff;
+    display: block;
 }
 
 .textanacar {
   width: 720px;
     padding: 10px;
     border: 5px solid #990000;
-    margin: 0;
+    margin: auto;
+    background-color: #ff3333;
+    display: block;
 }
